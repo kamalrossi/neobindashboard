@@ -1,4 +1,4 @@
-  // ** MUI Imports
+
 import Box from '@mui/material/Box'
 import Card from '@mui/material/Card'
 import Avatar from '@mui/material/Avatar'
@@ -7,29 +7,28 @@ import IconButton from '@mui/material/IconButton'
 import CardHeader from '@mui/material/CardHeader'
 import CardContent from '@mui/material/CardContent'
 
-// ** Icons Imports
 import ChevronUp from 'mdi-material-ui/ChevronUp'
 import ChevronDown from 'mdi-material-ui/ChevronDown'
 import DotsVertical from 'mdi-material-ui/DotsVertical'
 
 const data = [
   {
-    sales: '7k',
+    sales: '3k',
     trendDir: 'up',
-    subtitle: 'Biz',
-    title: '$7k',
-    avatarText: 'Biz',
-    trendNumber: '5%',
+    subtitle: 'Food',
+    title: '3000 KT',
+    avatarText: 'Food',
+    trendNumber: '25%',
     avatarColor: 'success',
     trend: <ChevronUp sx={{ color: 'success.main', fontWeight: 600 }} />
   },
   {
     sales: '5k',
-    subtitle: 'Tec',
+    subtitle: 'Plas',
     trendDir: 'down',
     title: '5k',
-    avatarText: 'Tec',
-    trendNumber: '6%',
+    avatarText: 'Plas',
+    trendNumber: '26%',
     avatarColor: 'error',
     trend: <ChevronDown sx={{ color: 'error.main', fontWeight: 600 }} />
   },
@@ -37,9 +36,9 @@ const data = [
     sales: '4k',
     title: '4k',
     trendDir: 'up',
-    avatarText: 'Wor',
-    subtitle: 'Wor',
-    trendNumber: '2',
+    avatarText: 'Gla',
+    subtitle: 'Gla',
+    trendNumber: '22%',
     avatarColor: 'warning',
     trend: <ChevronUp sx={{ color: 'success.main', fontWeight: 600 }} />
   },
@@ -47,9 +46,9 @@ const data = [
     sales: '1k',
     title: '1k',
     trendDir: 'down',
-    avatarText: 'Loc',
-    subtitle: 'Loc',
-    trendNumber: '1',
+    avatarText: 'Ste',
+    subtitle: 'Steal',
+    trendNumber: '12%',
     avatarColor: 'secondary',
     trend: <ChevronDown sx={{ color: 'error.main', fontWeight: 600 }} />
   },
@@ -57,9 +56,9 @@ const data = [
     sales: '1k',
     title: '1k',
     trendDir: 'up',
-    avatarText: 'Spo',
-    subtitle: 'Spo',
-    trendNumber: '2%',
+    avatarText: 'Oth',
+    subtitle:'other',
+    trendNumber: '12%',
     avatarColor: 'error',
     trend: <ChevronUp sx={{ color: 'success.main', fontWeight: 600 }} />
   }
@@ -69,7 +68,7 @@ const SalesByCountries = () => {
   return (
     <Card>
       <CardHeader
-        title='Views by Cateogory'
+        title='Waste Cateogory'
         titleTypographyProps={{ sx: { lineHeight: '1.2 !important', letterSpacing: '0.31px !important' } }}
         action={
           <IconButton size='small' aria-label='settings' className='card-more-options' sx={{ color: 'text.secondary' }}>
