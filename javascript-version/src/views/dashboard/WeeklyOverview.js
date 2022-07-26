@@ -81,7 +81,7 @@ const WeeklyOverview = () => {
   return (
     <Card>
       <CardHeader
-        title='Weekly Overview'
+        title='Task Genre'
         titleTypographyProps={{
           sx: { lineHeight: '2rem !important', letterSpacing: '0.15px !important' }
         }}
@@ -92,12 +92,12 @@ const WeeklyOverview = () => {
         }
       />
       <CardContent sx={{ '& .apexcharts-xcrosshairs.apexcharts-active': { opacity: 0 } }}>
-        <ReactApexcharts type='bar' height={205} options={options} series={[{ data: [37, 57, 45, 75, 57, 40, 65] }]} />
+        <ReactApexcharts type='bar' height={205} options={options} series={[{ data: [3700, 5700, 4500, 7500, 5700, 4000, 6500] }]} />
         <Box sx={{ mb: 7, display: 'flex', alignItems: 'center' }}>
           <Typography variant='h5' sx={{ mr: 4 }}>
-            15%
+            5%
           </Typography>
-          <Typography variant='body2'>Post boost is 15% better than last month</Typography>
+          <Typography variant='body2'>5% more waste than last week</Typography>
         </Box>
         <Button fullWidth variant='contained'>
          Watch Analytics
