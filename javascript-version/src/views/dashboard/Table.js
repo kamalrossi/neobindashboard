@@ -12,74 +12,74 @@ import TableContainer from '@mui/material/TableContainer'
 
 const rows = [
   {
-    age: 32,
-    status: 'current',
+    age: 1,
+   status: 'ongoing',
     date: '01/01/2020',
     name: 'Henry Schartz',
-    salary: '$5000',
+    salary: '$100',
     email: 'henrtysc@gmail.com',
-    designation: 'Editor'
+    designation: 'Prague'
   },
   {
-    age: 22,
+    age: 1,
     date: '01/01/2020',
-    salary: '$4000',
-    status: 'current',
+     salary: '$100',
+status: 'ongoing',
     name: 'Margaret Bonh',
     email: 'margaretbon@gmail.com',
-    designation: 'Sub-Editor'
+    designation: 'Prague'
   },
   {
-    age: 22,
+    age: 1,
     date: '01/01/2020',
     name: 'Julien Zuana',
-    status: 'current',
-    salary: '$4000',
+    status: 'pending',
+   salary: '$100',
     email: 'zulien@gmail.com',
-    designation: 'Sub-Editor'
+    designation: 'Prague'
   },
   {
-    age: 21,
+    age: 1,
     date: '01/01/2021',
-    status: 'current',
-    salary: '$1900',
+    status: 'pending',
+    salary: '$100',
     name: 'Mardalena Pamela',
     email: 'marpam@gmail.com',
-    designation: 'Office Desk Executive'
+    designation: 'Prague'
   },
   {
-    age: 32,
-    status: 'current',
+    age: 1,
+    status: 'pending',
     date: '01/01/2021',
-    salary: '$1076.28',
+    salary: '$100',
     name: 'Stepahie Chawratich',
-    designation: 'Office Desk Executive',
+    designation: 'prague',
     email: 'stephachar@gmail.com'
   },
   {
-    age: 33,
+    age: 1,
     date: '01/01/2021',
-    salary: '3000',
+    salary: '$100',
     name: 'Margareta Zhaini',
-    status: 'current',
+   status: 'ongoing',
         email: 'zhaini@gmail.com',
     designation: 'Business Executive'
   },
   {
-    age: 31,
-    status: 'current',
+    age: 1,
+    status: 'ongoing',
     date: '06/01/2020',
-    salary: '$3000',
+     salary: '$100', 
     name: 'Zuana Margareta',
     designation: 'Business Executive',
     email: 'zuanamargareta@gmail.com'
   },
   {
-    age: 32,
+    age: 1,
     date: '01/01/2020',
-    salary: '$3000',
+     salary: '$100',
     name: 'Katerina Gomes',
-    status: 'current',
+    status: 'ongoing',
     designation: 'Accountant',
     email: 'katgom@google.com'
   }
@@ -88,8 +88,8 @@ const rows = [
 const statusObj = {
   applied: { color: 'info' },
   rejected: { color: 'error' },
-  current: { color: 'primary' },
-  resigned: { color: 'warning' },
+  ongoing: { color: 'primary' },
+  pending: { color: 'warning' },
   professional: { color: 'success' }
 }
 
@@ -106,9 +106,9 @@ const DashboardTable = () => {
               <TableCell>Name</TableCell>
               <TableCell>Email</TableCell>
               <TableCell>Date</TableCell>
-              <TableCell>Salary</TableCell>
-              <TableCell>Age</TableCell>
-              <TableCell>Status</TableCell>
+              <TableCell>Bill</TableCell>
+              <TableCell>QT</TableCell>
+              <TableCell>Payment Status</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
