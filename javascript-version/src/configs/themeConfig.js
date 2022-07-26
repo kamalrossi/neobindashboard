@@ -1,7 +1,7 @@
  const themeConfig = {
   // ** Layout Configs
-  templateName: 'MediaTrail' /* App Name */,
-  mode: 'light' /* light | dark */,
+  templateName: 'NeoBin' /* App Name */,
+  mode: 'dark' /* light | dark */,
   contentWidth: 'boxed' /* full | boxed */,
   // ** Routing Configs
   routingLoader: true /* true | false */,
