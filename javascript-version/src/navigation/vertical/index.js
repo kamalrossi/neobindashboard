@@ -39,7 +39,7 @@ const navigation = () => {
     },
     {
       title: 'PickupMan',
-        icon: Table,
+        icon: Login,
       path: '/pages/error',
       openInNewTab: true
     },
@@ -47,7 +47,7 @@ const navigation = () => {
       sectionTitle: 'Tasks'
     },
     {
-      title: 'Pickup',
+      title: 'Order',
         icon: Table,
       path: '/typography'
     },
