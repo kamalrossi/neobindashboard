@@ -42,7 +42,7 @@ const Dashboard = () => {
             <Grid item xs={6}>
               <CardStatisticsVerticalComponent
                 stats='1500 KilloTon'
-                icon={<Paoll />}
+                icon={<BriefcaseVariantOutline />}
                 color='success'
                 trendNumber='24%'
                 title='Waste Collection '
@@ -57,7 +57,7 @@ const Dashboard = () => {
                 color='secondary'
                 trendNumber='25%'
                 subtitle='Daily Update'
-                icon={<CurrencyUsd />}
+              icon={<BriefcaseVariantOutline />}
               />
             </Grid>
             <Grid item xs={6}>
@@ -78,7 +78,7 @@ const Dashboard = () => {
                 trendNumber='15%'
                 subtitle='Daily Update'
                 title='Transfer to External'
-                icon={<HelpCircleOutline />}
+               icon={<BriefcaseVariantOutline />}
               />
             </Grid>
           </Grid>
