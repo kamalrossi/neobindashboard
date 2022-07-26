@@ -8,7 +8,7 @@ import CardHeader from '@mui/material/CardHeader'
 import CardContent from '@mui/material/CardContent'
 import LinearProgress from '@mui/material/LinearProgress'
 
-// ** Icons Imports
+
 import MenuUp from 'mdi-material-ui/MenuUp'
 import DotsVertical from 'mdi-material-ui/DotsVertical'
 
@@ -16,29 +16,29 @@ const data = [
   {
     progress: 75,
     imgHeight: 20,
-    title: 'Ad',
+    title: 'Waste Collection',
     color: 'primary',
-    amount: '$2000',
-    subtitle: 'Website and App',
-    imgSrc: '/images/cards/3.png'
+    amount: '$20000',
+    subtitle: 'Bill Received',
+    imgSrc: '/images/cards/22.png'
   },
   {
     progress: 50,
     color: 'info',
     imgHeight: 27,
-    title: 'Spons. News',
-    amount: '$500',
-    subtitle: 'Website and App',
-    imgSrc: '/images/cards/2.png'
+    title: 'Renewable Energy',
+    amount: '$10000',
+    subtitle: 'Selling Price',
+    imgSrc: '/images/cards/33.png'
   },
   {
     progress: 20,
     imgHeight: 20,
-    title: 'Promotion',
+    title: 'New Product ',
     color: 'secondary',
-    amount: '$1000',
-    subtitle: 'Internal and external',
-    imgSrc: '/images/cards/1.png'
+    amount: '$5000',
+    subtitle: 'Selling Price',
+    imgSrc: '/images/cards/11.png'
   }
 ]
 
@@ -46,7 +46,7 @@ const TotalEarning = () => {
   return (
     <Card>
       <CardHeader
-        title='Net Income'
+        title='Total Revenue'
         titleTypographyProps={{ sx: { lineHeight: '1.6 !important', letterSpacing: '0.15px !important' } }}
         action={
           <IconButton size='small' aria-label='settings' className='card-more-options' sx={{ color: 'text.secondary' }}>
@@ -57,7 +57,7 @@ const TotalEarning = () => {
       <CardContent sx={{ pt: theme => `${theme.spacing(2.25)} !important` }}>
         <Box sx={{ mb: 1.5, display: 'flex', alignItems: 'center' }}>
           <Typography variant='h4' sx={{ fontWeight: 600, fontSize: '2.125rem !important' }}>
-            $3500
+            $35000
           </Typography>
           <Box sx={{ display: 'flex', alignItems: 'center', color: 'success.main' }}>
             <MenuUp sx={{ fontSize: '1.875rem', verticalAlign: 'middle' }} />
