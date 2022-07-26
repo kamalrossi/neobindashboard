@@ -18,7 +18,7 @@ const depositData = [
     amount: '3K',
     subtitle: 'Truck-Driver',
     title: 'Pavel Rostlav',
-    logo: '/images/logos/1.png'
+    logo: '/images/misc/1.png'
   },
   {
     logoWidth: 38,
@@ -26,7 +26,7 @@ const depositData = [
     amount: '3K',
     title: 'Jiri Mikulasn',
     subtitle: 'Truck Driver',
-    logo: '/images/logos/2.png'
+    logo: '/images/misc/2.png'
   },
   {
     logoWidth: 20,
@@ -34,7 +34,7 @@ const depositData = [
     amount: '3K',
     title: 'Vaclav Patrik',
     subtitle: 'Truck Driver',
-    logo: '/images/logos/3.png'
+    logo: '/images/misc/3.png'
   },
   {
     logoWidth: 34,
@@ -42,7 +42,7 @@ const depositData = [
     amount: '2K',
     title: 'Nicolas Ondrej',
     subtitle: 'Truck Driver',
-    logo: '/images/logos/4.png'
+    logo: '/images/misc/4.png'
   },
   {
     logoWidth: 33,
@@ -50,7 +50,7 @@ const depositData = [
     amount: '2K',
     title: 'Michael Hugo',
     subtitle: 'Truck-Driver',
-    logo: '/images/logos/5.png',
+    logo: '/images/misc/5.png',
     
   }
 ]
@@ -63,14 +63,14 @@ const withdrawData = [
     amount: '2K',
     title: 'Josef Patrik',
     subtitle: 'Pickup Assistant',
-    logo: '/images/logos/6.png',
+    logo: '/images/misc/6.png',
   },
   {
     logoWidth: 34,
     logoHeight: 34,
     amount: '2K',
     title: 'Vladimir Libor',
-   logo: '/images/logos/7.png',
+   logo: '/images/misc/7.png',
    subtitle: 'Pickup Assistant'
   },
   {
@@ -79,7 +79,7 @@ const withdrawData = [
     amount: '2K',
     title: 'Sebastian Maxmi',
     subtitle: 'Pickup Assistant',
-    logo: '/images/logos/8.png',
+    logo: '/images/misc/8.png',
   },
   {
     logoWidth: 30,
@@ -87,14 +87,14 @@ const withdrawData = [
     amount: '2K',
     title: 'Dominik Milan',
     subtitle: 'Pickup Assistant',
-    logo: '/images/logos/9.png',
+    logo: '/images/misc/9.png',
   },
   {
     logoWidth: 36,
     logoHeight: 21,
     amount: '2K',
     title: 'Matyas Gabriel',
-    logo: '/images/logos/10.png',
+    logo: '/images/misc/10.png',
     subtitle: 'Pickup Assistant'
   }
 ]
