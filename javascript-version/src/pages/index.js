@@ -1,4 +1,3 @@
-// ** MUI Imports
 import Grid from '@mui/material/Grid'
 
 // ** Icons Imports
@@ -42,43 +41,43 @@ const Dashboard = () => {
           <Grid container spacing={6}>
             <Grid item xs={6}>
               <CardStatisticsVerticalComponent
-                stats='6k'
-                icon={<Poll />}
+                stats='1500 KilloTon'
+                icon={<Paoll />}
                 color='success'
-                trendNumber='+4%'
-                title='Follower'
-                subtitle='Weekly Upgrade'
+                trendNumber='24%'
+                title='Waste Collection '
+                subtitle='Daily Update'
               />
             </Grid>
             <Grid item xs={6}>
               <CardStatisticsVerticalComponent
-                stats='4K'
-                title='Recurring Reader'
+                stats='1500 KilloTon'
+                title='Transfer Waste'
                 trend='positive'
                 color='secondary'
-                trendNumber='-15%'
-                subtitle='Past Month'
+                trendNumber='25%'
+                subtitle='Daily Update'
                 icon={<CurrencyUsd />}
               />
             </Grid>
             <Grid item xs={6}>
               <CardStatisticsVerticalComponent
-                stats='1K'
+                stats='1500 KilloTon'
                 trend='positive'
-                trendNumber='8%'
-                title='New Reader'
-                subtitle='Weekly Upgrade'
+                trendNumber='25%'
+                title='Waste Deposit'
+                subtitle='Daily Update'
                 icon={<BriefcaseVariantOutline />}
               />
             </Grid>
             <Grid item xs={6}>
               <CardStatisticsVerticalComponent
-                stats='1K'
+                stats='1500 KilloTon'
                 color='warning'
                 trend='positive'
-                trendNumber='8%'
-                subtitle='Weekly Upgrade'
-                title='Retweet'
+                trendNumber='15%'
+                subtitle='Daily Update'
+                title='Transfer to External'
                 icon={<HelpCircleOutline />}
               />
             </Grid>
