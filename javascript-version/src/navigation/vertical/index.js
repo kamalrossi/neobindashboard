@@ -18,7 +18,7 @@ const navigation = () => {
       path: '/'
     },
     {
-      title: 'Settings',
+      title: 'Admin',
       icon: AccountCogOutline,
       path: '/account-settings'
     },
@@ -26,20 +26,20 @@ const navigation = () => {
       sectionTitle: 'Users'
     },
     {
-      title: 'Editor',
+      title: 'Customer',
       icon: Login,
       path: '/pages/login',
       openInNewTab: true
     },
     {
-      title: 'Reporter',
-      icon: AccountPlusOutline,
+      title: 'Driver',
+    icon: Login,
       path: '/pages/register',
       openInNewTab: true
     },
     {
-      title: 'Blogger',
-      icon: AlertCircleOutline,
+      title: 'PickupMan',
+        icon: Table,
       path: '/pages/error',
       openInNewTab: true
     },
@@ -47,28 +47,28 @@ const navigation = () => {
       sectionTitle: 'Tasks'
     },
     {
-      title: 'Post',
-      icon: FormatLetterCase,
+      title: 'Pickup',
+        icon: Table,
       path: '/typography'
     },
     {
-      title: 'Ad-management',
+      title: 'Stock',
       path: '/icons',
-      icon: GoogleCirclesExtended
-    },
-    {
-      title: 'Review/Comment',
-      icon: CreditCardOutline,
-      path: '/cards'
+        icon: Table,
     },
     {
       title: 'Inventory',
+   icon: Table,
+      path: '/cards'
+    },
+    {
+      title: 'Billing',
       icon: Table,
       path: '/tables'
     },
     {
-      icon: CubeOutline,
-      title: 'Log Out',
+    icon: Table,
+      title: 'Reporting',
       path: '/form-layouts'
     }
   ]
