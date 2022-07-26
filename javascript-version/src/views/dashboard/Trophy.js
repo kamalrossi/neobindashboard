@@ -37,7 +37,7 @@ const Trophy = () => {
           Watch All Statistics 
         </Button>
         <TriangleImg alt='triangle background' src={`/images/misc/${imageSrc}`} />
-        <TrophyImg alt='trophy' src='/images/misc/trophy.png' />
+        <TrophyImg alt='trophy' src='/images/cards/trophy.png' />
       </CardContent>
     </Card>
   )
