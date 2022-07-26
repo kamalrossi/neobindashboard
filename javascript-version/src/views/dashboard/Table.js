@@ -63,7 +63,7 @@ status: 'ongoing',
     name: 'Margareta Zhaini',
    status: 'ongoing',
         email: 'zhaini@gmail.com',
-    designation: 'Business Executive'
+    designation: 'Prague'
   },
   {
     age: 1,
@@ -71,7 +71,7 @@ status: 'ongoing',
     date: '06/01/2020',
      salary: '$100', 
     name: 'Zuana Margareta',
-    designation: 'Business Executive',
+    designation: 'Prague',
     email: 'zuanamargareta@gmail.com'
   },
   {
@@ -80,7 +80,7 @@ status: 'ongoing',
      salary: '$100',
     name: 'Katerina Gomes',
     status: 'ongoing',
-    designation: 'Accountant',
+    designation: 'Prague',
     email: 'katgom@google.com'
   }
 ]
